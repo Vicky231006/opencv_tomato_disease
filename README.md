@@ -6,15 +6,7 @@ The system implements a decoupled, multi-stage deep learning pipeline leveraging
 ## 🚀 Live Demonstration
 
 Below is a live walkthrough of the diagnostic panel in action, showcasing the image ingestion, scanning laser animations, real-time pipeline telemetry, and disease care recommendations:
-
-<br />
-
-<div align="center">
-  <video src="demo_cv.mp4" width="100%" controls loop muted playsinline></video>
-</div>
-
-<br />
-
+<video src="https://raw.githubusercontent.com/Vicky231006/opencv_tomato_disease/main/web_demo.mp4" width="100%" controls loop muted playsinline></video>
 
 ## 🏗️ System Architecture & Inference Pipeline Topology
 
