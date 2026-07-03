@@ -6,8 +6,7 @@ The system implements a decoupled, multi-stage deep learning pipeline leveraging
 ## 🚀 Live Demonstration
 
 Below is a live walkthrough of the diagnostic panel in action, showcasing the image ingestion, scanning laser animations, real-time pipeline telemetry, and disease care recommendations:
-
-  <video src="web_demo.mp4" width="100%" controls loop muted playsinline></video>
+![](web_demo.mp4)
 
 
 ## 🏗️ System Architecture & Inference Pipeline Topology
