@@ -10,7 +10,7 @@ Below is a live walkthrough of the diagnostic panel in action, showcasing the im
 <br />
 
 <div align="center">
-  <video src="demo_cv.mp4" width="100%" controls loop muted playsinline></video>
+  <video src="web_demo.mp4" width="100%" controls loop muted playsinline></video>
 </div>
 
 <br />
