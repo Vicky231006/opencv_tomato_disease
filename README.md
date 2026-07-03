@@ -15,6 +15,7 @@ Below is a live walkthrough of the diagnostic panel in action, showcasing the im
 
 <br />
 ---
+
 ## 🏗️ System Architecture & Inference Pipeline Topology
 
 Instead of passing raw user uploads directly into heavy deep learning models, the architecture utilizes a **Decoupled Sequential Pipeline Pattern**. This structural decision optimizes system memory, drops unnecessary GPU tensor processing costs, and implements strict verification boundaries before running deep inference.
