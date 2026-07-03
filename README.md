@@ -1,14 +1,19 @@
 # AgTech Vision OS: Distributed Edge AI Crop Disease Diagnostic & Severity Inference Engine
 
 An enterprise-grade, full-stack Edge AI and computer vision system engineered for low-latency detection, multi-class classification, and mathematical surface-area severity quantification of crop pathologies. 
-
 The system implements a decoupled, multi-stage deep learning pipeline leveraging a **MobileNetV3** gatekeeper network, a fine-tuned **ResNet50** classification core optimized with discriminative learning rates, and a custom **multi-channel HSV color-space geometric segmentation engine**. The system serves real-time analytics over an asynchronous **FastAPI** REST layer to a responsive **React / Tailwind CSS v4** single-page management dashboard.
 ---
 ## 🚀 Live Demonstration
 
 Below is a live walkthrough of the diagnostic panel in action, showcasing the image ingestion, scanning laser animations, real-time pipeline telemetry, and disease care recommendations:
 
-<video src="./demo_cv.mp4" width="100%" controls loop muted playsinline></video>
+<br />
+
+<div align="center">
+  <video src="demo_cv.mp4" width="100%" controls loop muted playsinline></video>
+</div>
+
+<br />
 ---
 ## 🏗️ System Architecture & Inference Pipeline Topology
 
