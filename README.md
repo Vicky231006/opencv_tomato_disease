@@ -84,7 +84,7 @@ Saved configuration weights as leaf_verifier.pth
 ### Model 2: Advanced Disease Classifier (ResNet50)
 * **Optimization Strategy:** Adam Optimizer utilizing **Discriminative Learning Rates** to update model weights without washing out pre-trained ImageNet spatial features.
 * **Learning Rate Layer Allocation Strategy:**
-    $$\eta_{\text{linear\_head}} = 10^{-3}, \quad \eta_{\text{layer4}} = 10^{-4}, \quad \eta_{\text{layer3}} = 10^{-5}$$
+$$\eta_{\text{linear\_head}} = 10^{-3}, \quad \eta_{\text{layer4}} = 10^{-4}, \quad \eta_{\text{layer3}} = 10^{-5}$$
 * **Loss Function:** Cross-Entropy Loss.
 * **Convergence Evaluation:** The network reached an impressive **97.85% validation accuracy** by Epoch 5, proving that unfreezing the lower feature layers successfully taught the model to tell the difference between Early Blight concentric rings and Late Blight water-soaked lesions.
 
